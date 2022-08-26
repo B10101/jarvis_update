@@ -30,5 +30,3 @@ def open_visualstudio2019():
     os.startfile(paths['visual studio 2019'])
 
 
-def open_UnrealEngine():
-    os.startfile(paths['Unreal engine'])

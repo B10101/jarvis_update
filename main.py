@@ -5,7 +5,7 @@ import speech_recognition as sr
 from random import choice
 from utils import opening_text
 import requests
-from functions.os_ops import open_cmd, open_camera, open_chrome, open_visualstudiocode, open_visualstudio2019, openUnrealEngine
+from functions.os_ops import open_cmd, open_camera, open_chrome, open_visualstudiocode, open_visualstudio2019
 from functions.online_ops import trending_movies, play_on_yt, send_email,\
     send_whatsapp_message, search_google, search_on_wikipedia
 
@@ -117,8 +117,7 @@ def main():
             open_visualstudiocode()
         elif 'visual studio 2019' in query:
             open_visualstudio2019()
-        elif 'Unreal Engine' in query:
-            open_UnrealEngine()
+
 
 
 if __name__ == "__main__":
